@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gerador Chaves EuroMilhões</string>
+    <string name="action_settings">Settings</string>
+    <string name="text1">Gere aqui a sua chave do EuroMilhões</string>
+    <string name="button1">Gerar!</string>
+    <string name="button2">Chaves Anteriores</string>
+    <string name="button3">Apagar Histórico</string>
+    <string name="title_activity_display_chaves"> </string>
+
+</resources>

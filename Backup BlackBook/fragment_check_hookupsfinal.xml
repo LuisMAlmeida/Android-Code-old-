@@ -1,0 +1,157 @@
+
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fillViewport="true" >
+	
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teste"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageViewHookup2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonLoadImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="loadImage"
+        android:text="@string/loadimage" />
+
+    <TextView
+        android:id="@+id/textViewName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/nameHookup"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/teste2" />
+
+    <EditText
+        android:id="@+id/editTextName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewAge2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ageHookup"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/teste2" />
+
+    <EditText
+        android:id="@+id/editTextAge2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewPlace2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeHookup"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/teste2" />
+
+    <EditText
+        android:id="@+id/editTextPlace2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewLocation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homeHookup"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/teste2" />
+
+    <EditText
+        android:id="@+id/editTextFrom2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewObs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/obsHookup"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/teste2" />
+
+    <EditText
+        android:id="@+id/editTextObs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/checkboxBJ"
+        android:textColor="@color/teste2" />
+    
+    <CheckBox
+        android:id="@+id/checkBox22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/checkboxHJ"
+        android:textColor="@color/teste2" />
+    
+    <CheckBox
+        android:id="@+id/checkBox32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/checkboxAll"
+        android:textColor="@color/teste2" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="editHookup"
+        android:text="@string/editHookup" />
+
+    <TextView
+        android:id="@+id/textViewIsEdited"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/isitedited"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/teste2" />
+
+    <TextView
+        android:id="@+id/textViewEdited"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/no"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Red" />
+    
+   
+    
+</LinearLayout>
+
+</ScrollView>
+
